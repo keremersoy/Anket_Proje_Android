@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/txtParola2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="-15dp"
+        android:layout_toEndOf="@+id/textView9"
+        android:ems="10"
+        android:hint="Parola..."
+        android:inputType="numberPassword"
+        android:maxLength="8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Kullanıcı Adı" />
+
+    <EditText
+        android:id="@+id/txtKullaniciAdi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="-15dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:ems="10"
+        android:hint="Kullanıcı Adı..."
+        android:inputType="textPersonName"
+        android:maxLength="20" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:text="Parola" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="25dp"
+        android:text="GİRİŞ"
+        android:textSize="35sp" />
+
+    <CheckBox
+        android:id="@+id/cbGGoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtParola2"
+        android:layout_alignBottom="@+id/txtParola2"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/txtParola2"
+        android:text="Göster" />
+
+    <Button
+        android:id="@+id/btnGiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUyariGiris"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Giriş" />
+
+    <TextView
+        android:id="@+id/tvKayıt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGiris"
+        android:layout_alignStart="@+id/btnGiris"
+        android:layout_alignEnd="@+id/btnGiris"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:text="Kaydol..."
+        android:textAlignment="center"
+        android:textColor="#5A5252"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvUyariGiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtParola2"
+        android:layout_alignStart="@+id/tvKayıt"
+        android:layout_alignEnd="@+id/tvKayıt"
+        android:layout_marginStart="-100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-100dp"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error" />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+            <item android:title="Sayfalar">
+                <menu>
+                    <item
+                        android:id="@+id/mHome"
+                        android:icon="@drawable/home"
+                        android:title="Anasayfa" />
+                    <item
+                        android:id="@+id/testKerem"
+                        android:icon="@drawable/test"
+                        android:title="Ne Kadar Keremsin?" />
+                    <item
+                        android:id="@+id/testCem"
+                        android:icon="@drawable/test"
+                        android:title="Ne Kadar Cemsin?" />
+                    <item
+                        android:id="@+id/testBilal"
+                        android:icon="@drawable/test"
+                        android:title="Ne Kadar Bilalsin?" />
+                    <item
+                        android:id="@+id/mLogout"
+                        android:icon="@drawable/logout"
+                        android:title="Çıkış Yap" />
+                </menu>
+            </item>
+            <item android:title="Konum">
+                <menu>
+                    <item
+                        android:id="@+id/mLocation"
+                        android:icon="@drawable/contact"
+                        android:title="Konum" />
+                </menu>
+            </item>
+    </group>
+</menu>
